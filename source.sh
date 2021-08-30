@@ -15,4 +15,4 @@ sudo make -j$J install
 cd ..
 }
 Setup
-#Wget
+Wget
