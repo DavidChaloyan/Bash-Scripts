@@ -1,3 +1,4 @@
+#!/bin/bash
 site () {
 sudo systemctl start apache2
 cd /var/www/html
