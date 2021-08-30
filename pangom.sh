@@ -12,8 +12,8 @@ cd pango-1.48.2
 mkdir build 
 cd build
 meson --prefix=/usr..&&
-ninja 
-sudo make ninja install
+ninja -j$J
+sudo  ninja -j$J install
 cd ..
 }
 Setup
